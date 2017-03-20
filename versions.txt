@@ -1,1 +1,12 @@
-Version - 7
+Merge :
+1: git checkout master
+2: git branch --merged
+3: git merge (branch name)
+
+Reset to particular comment : 
+1: git fetch origin (SHA id)
+2: git checkout FETCH_HEAD
+
+Reset last commit:
+1: git reset --hard SHA (not recommended)
+2: git reset --soft SHA
